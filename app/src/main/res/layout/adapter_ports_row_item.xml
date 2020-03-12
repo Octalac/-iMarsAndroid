@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_margin="@dimen/_10sdp"
+        card_view:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:id="@+id/rlDetailsView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.os.imars.custom.CircleImageView
+                android:id="@+id/imvAgents"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ship_icon"
+                android:layout_gravity="center|left"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/_10sdp"
+                android:layout_toRightOf="@+id/imvAgents"
+                android:layout_toLeftOf="@+id/llForwordArrow">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:layout_toLeftOf="@+id/llAppoint"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tvCity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mumbai"
+                        android:singleLine="true"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:textColor="@color/grey_900"
+                        android:textSize="@dimen/_12sdp"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Transportation cost:"
+                            android:paddingLeft="@dimen/_5sdp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="@color/grey_500"
+                            android:textSize="@dimen/_10sdp"/>
+
+                        <TextView
+                            android:id="@+id/tvTransportationCost"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$100"
+                            android:paddingLeft="@dimen/_5sdp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="@color/baseColor"
+                            android:textSize="@dimen/_10sdp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/llForwordArrow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_alignParentRight="true"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgCheckIcon"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/right_arrow"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

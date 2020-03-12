@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/llNoInternetConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/no_internet_connection"
+            android:textSize="@dimen/_20sdp" />
+
+
+        <Button
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/button_ripple"
+            style="@style/button_style"
+            android:text="REtry"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

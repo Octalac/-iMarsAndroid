@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ListView
+        android:id="@+id/listViewDialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnAddAgent"></ListView>
+
+    <Button
+        android:id="@+id/btnAddAgent"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_ripple_without_radius"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Add Agent"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "864642153946",
+    "firebase_url": "https://imars-b70c5.firebaseio.com",
+    "project_id": "imars-b70c5",
+    "storage_bucket": "imars-b70c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864642153946:android:4b5671f4486f71186b14e3",
+        "android_client_info": {
+          "package_name": "com.octal.imarsproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864642153946-j7u70ccra5hoarhfjvopo0dvs7v0k4kd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.octal.imarsproject",
+            "certificate_hash": "e201ff95f436e6387f6711f17bd8d12b9bda88c0"
+          }
+        },
+        {
+          "client_id": "864642153946-gktsgq7be8970cmmmns6sfl493bk0sh5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmC1ao9JGnxm_-rWJbrFYZnhOShoR0H4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864642153946-gktsgq7be8970cmmmns6sfl493bk0sh5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "864642153946-ns27nvasb6mug5jlt3h777bnb9s5ujmt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.iMars.app.iMars"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
